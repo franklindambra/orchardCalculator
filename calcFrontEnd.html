@@ -1,0 +1,46 @@
+<div id="calcContainer">    
+    <div id="theCalculator" >
+            <h2 class="calculatorHeaders">How many trees do I need for my orchard?</h2>
+    
+                <form id="calculator" type="number"  onsubmit="calculate()" onsubmit="return false"">
+                    <h3 class="calculatorHeaders">Length of Orchard In Feet</h3><br>
+
+                    <input style="max-width:100px;background-color:#ffffff;" type="number" id="lengthInFeet"><br><br>
+            
+                    <h3 class="calculatorHeaders">Width of Orchard In Feet</h3><br>
+                    <input style="max-width:100px;background-color:#ffffff; " type="number" id="widthInFeet"><br><br>
+               
+                    <h3 class="calculatorHeaders">Distance Between Centers of Trees In Feet</h3><br>
+                    <input style="max-width:100px;background-color:#ffffff;" type="number" id="distanceBetween"><br><br>
+<p style="text-shadow: 2px 2px 4px #000000;">Our recommendation is 25 feet between the center of each tree. Many variables influence the number of trees you can grow in your orchard. This calculator can give you a tree count based on standard assumptions, but it is your responsibility to ensure that counts are accurate for your orchard's size and shape.</p>
+
+            
+                        <!--SUBMIT-->
+                        <input class="submit" type="submit" value="Submit">       
+    
+                </form>
+        
+        </div>
+        
+        <div id="theResults">
+ <img src="insert background image url">
+                <h2 class="calculatorHeaders">Square Pattern</h2>
+                <h3 class="calculatorHeaders">Number Of trees</h3>
+                <div class="aResult" id="numberOfPlants"></div>
+                <h3 class="calculatorHeaders">Number of Square Feet</h3>
+                <div class="aResult" id="squareFeet"></div>
+                <h3 class="calculatorHeaders">Plants Centered On:</h3>
+                <div class="aResult" id="plantDistance"></div>
+
+<!--Triangle Pattern-->
+ <img src="insert background image url">
+                <h2 class="calculatorHeaders">Triangle Pattern</h2>
+                <h3 class="calculatorHeaders">Number of Trees</h3>
+                <div class="aResult" id="numberOfPlantsTri"></div>
+                <h3 class="calculatorHeaders">Number of Square Feet</h3>
+                <div class="aResult" id="squareFeetTri"></div>
+                <h3 class="calculatorHeaders">Plants Centered On:</h3>
+                <div class="aResult" id="plantDistanceTri"></div>
+            
+            </div>
+    </div>
